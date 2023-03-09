@@ -1,0 +1,546 @@
+* {
+    margin: 0px;
+    font-family: tahoma;
+}
+
+body {
+    background-color: #E7EAED;
+    height: auto;
+}
+
+.header {
+    background-color: rgb(66,119,165);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.headContent {
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.headContent h2 {
+    color: #FBF5F0;
+    font-family: tahoma;
+}
+
+.headContent input {
+    background-color: #2C4869;
+    width: 150px;
+    margin-left: 150px;
+    height: 60%;
+    border: none;
+    border-radius: 50px;
+    padding-left: 5px;
+}
+
+
+.main {
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: #5d6069;
+}
+
+.nav a:hover {
+    color:#1e3853;
+}
+
+
+.first {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.profilePic {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.profilePic img {
+    width: 230px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.profilePic button {
+    color: #5d6069;
+    background-color: #E7EAED;
+    border: none;
+    height: 30px;
+    width: 230px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.profilePic button:hover {
+    background-color: #818285;
+    color: white;
+}
+
+.friends {
+    color: #5d6069;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: left;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.friends table {
+    border-spacing: 20px 10px;
+}
+
+
+.friends img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.friendsP {
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+
+.info {
+    color: #424449;
+    padding: 20px 15px 15px 15px;
+    background-color: white;
+    width: 525px;
+    height: 310px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.p1 {
+    font-size: 20px;
+    font-style: normal;
+    padding-bottom: 5px;
+}
+
+.p2 {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #E7EAED;
+}
+
+
+.table1 {
+    padding-top: 10px;
+    border-spacing: 7px 11px;
+    padding-bottom: 10px;
+}
+
+.table1 a {
+    text-decoration: none;
+    color: #5d6069;
+    font-size: 13px;
+}
+
+.table1 a:hover {
+    text-decoration:underline;
+    color: #2C4869;
+}
+
+.table1 p {
+    color: #5d6069;
+    font-size: 13px;
+}
+
+.table2 {
+    text-align: center;
+    border-spacing: 18px;
+}
+
+.t2p1 {
+    color: #424449;
+    padding-bottom: 5px;
+}
+
+.t2p2 {
+    color: #5d6069;
+    font-size: 12px;
+}
+
+
+.myPhoto {
+    color: #424449;
+    padding: 20px 15px 15px;
+    background-color: white;
+    width: 525px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.myPhoto img {
+    padding-top: 15px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mpImages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mpImages img {
+    width: 120px;
+    margin-bottom: 5px;
+}
+
+.mpImages {
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.mpText {
+    display: flex;
+    justify-content: left;
+}
+
+.mpP1 {
+    padding-left: 5px;
+    padding-right: 15px;
+    color: #424449;
+}
+
+.mpP2 {
+    font-size: 16px;
+    color: #5d6069;
+}
+
+.posts {
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 16px 16px 16px 16px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    width: 525px;
+    margin-bottom: 15px;
+}
+
+.postHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.postData {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 5px;
+}
+
+.pdP1 {
+    color: #1e3853;
+    font-size: 14px;
+    font-weight: 550;
+    padding-bottom: 5px;
+}
+
+.pdP2 {
+    color: #5d6069;
+    font-size: 11px;
+}
+
+.postHead img {
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 5px;
+    padding-bottom: 15px;
+}
+
+.postData p {
+    margin-left: 10px;
+}
+
+.postContent img {
+    width: 525px;
+}
+
+
+
+.friend-list {
+    padding-top: 15px;
+    display: flex;
+    height: auto;
+    width: 590px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 4px;
+    height: auto;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.friend-list-head {
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 40px;
+}
+
+.flh-p1 {
+    font-size: 14px;
+    color: #424449;
+    padding-right: 10px;
+}
+
+.flh-p2 {
+    font-size: 14px;
+    color: #5d6069;
+    padding-right: 30px;
+}
+
+.friend-list-head button {
+    color: white;
+    font-size: 13px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+    height: 25px;
+    background-color: rgb(66,119,165);
+    border: none;
+    border-radius: 4px;
+    padding-top: 4px;
+}
+
+.friend-list-head button:hover {
+    color: gray;
+    background-color: #2C4869;
+}
+
+.friend-search {
+    margin: 12px 12px 12px 12px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.friend-search input {
+    border: none;
+    font-size: 15px;
+    width: 500px;
+}
+
+.friend-search input:focus {
+    outline: none;
+}
+
+.friend-search p {
+    color: #5d6069;
+    padding-right: 10px;
+}
+
+
+.friend {
+    margin: 12px 12px 12px 12px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.friend img {
+    width: 65px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.f-p1 {
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(29, 102, 165);
+    margin-bottom: 5px;
+}
+
+.f-p2 {
+    font-size: 14px;
+    color: #5d6069;
+    margin-bottom: 2px;
+}
+
+.f-a {
+    text-decoration: none;
+    color:rgb(29, 102, 165);
+    font-size: 13px;
+}
+
+
+.f-a:hover {
+    color: rgb(1, 34, 63);
+}
+
+.f-p3 {
+    margin-left: 330px;
+    color:rgb(29, 102, 165);
+    font-size: 20px;
+    margin-top: -12px;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 210px;
+    background-color: white;
+    justify-content: left;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.navbar button {
+    font-family: calibri;
+    font-size: 15px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: white;
+    border: none;
+    height: 40px;
+}
+
+.navbar select {
+    font-family: calibri;
+    font-size: 15px;
+    margin-top: 11px;
+    margin-left: 7px;
+    border: none;
+    margin-bottom: 15px;
+    width: 116px;
+}
+
+.navbar button:active {
+    background-color: #EDEDFD;
+    font-weight: bold;
+}
+
+.navbar button:hover {
+    font-weight: bold;
+}
+
+.navbar select:hover {
+    font-weight: bold;
+}
+
+.navbar select:focus {
+    outline: none;
+}
+
+
+.possible-friends {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 210px;
+    background-color: white;
+    justify-content: left;
+    border-radius: 4px;
+}
+
+.possible-friends p {
+    padding-left: 15px;
+    font-family: calibri;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.p-f {
+    padding-left: 15px;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+.p-f img {
+    height: 55px;
+    border-radius: 50%;
+}
+
+.p-f-div {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.p-f-p1 {
+    font-family: calibri;
+    font-size: 15px;
+    margin-bottom: -15px;
+}
+
+.p-f-p2 {
+    font-family: calibri;
+    font-size: 12px;
+    color: #5d6069;
+}
+
+.p-f-a {
+    font-family: calibri;
+    font-size: 11px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #5d6069;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
